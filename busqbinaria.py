@@ -1,6 +1,6 @@
 def run():
     objetivo = int(input("Escoge un número: "))
-    epsilon = 0.01
+    epsilon = 0.0001
     bajo = 0.0
     alto = max(1.0, objetivo)
     respuesta = (alto + bajo) / 2
