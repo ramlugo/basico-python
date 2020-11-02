@@ -3,7 +3,10 @@ def run():
         total = a + b
         return total
 
-    print(suma(10, 20))
+    var_a = int(input("Escribe un número entero: "))
+    var_b = int(input("Escribe otro número entero: "))
+    print("La suma de estos dos números es: ")
+    print(suma(var_a, var_b))
 
 
 if __name__ == "__main__":
